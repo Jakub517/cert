@@ -8,8 +8,8 @@ function checkLogin() {
         Swal.fire({
             icon: 'success',
             title: 'Úspěch',
-            text: 'Úspěšně jste se přihlásili. Přejděte na: https://jakub517.github.io/certova-zranice-2/',
-            //confirmButtonText: 'Přejít na stránku',
+            text: 'Úspěšně jste se přihlásili.',
+            confirmButtonText: 'Přejít na stránku',
         }).then((result) => {
             if (result.isConfirmed) {
                 window.location.href = 'https://jakub517.github.io/certova-zranice-2/'; // Změňte na adresu cílové stránky
