@@ -12,7 +12,7 @@ function checkLogin() {
             confirmButtonText: 'Přejít na stránku',
         }).then((result) => {
             if (result.isConfirmed) {
-                window.location.href = 'jakub517.github.io/cert'; // Nahraďte URL adresou cílové stránky
+                window.location.href = 'jakub517.github.io/certova-zranice-2'; // Nahraďte URL adresou cílové stránky
             }
         });
     } else {
